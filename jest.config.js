@@ -9,7 +9,11 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: 'coverage',
-  coveragePathIgnorePatterns: ['/node_modules/'],
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+    'global.d.ts',
+    'src/alpine.ts'
+  ],
   coverageProvider: 'v8',
   moduleNameMapper: {
     '@/(.*)$': '<rootDir>/src/$1',
