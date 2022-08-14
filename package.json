@@ -1,0 +1,9 @@
+{
+  "name": "alpine-hold",
+  "version": "1.0.0",
+  "description": "Alpine.js x-hold directive",
+  "main": "index.js",
+  "repository": "git@github.com:wireui/alpine-hold-directive.git",
+  "author": "PH7-Jack <pedrolivertwd@gmail.com>",
+  "license": "MIT"
+}
