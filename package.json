@@ -10,6 +10,9 @@
     "lint": "eslint tests src --ext .ts",
     "test": "jest"
   },
+  "dependencies": {
+    "alpinejs": "^3.10.3"
+  },
   "devDependencies": {
     "@types/alpinejs": "^3.7.0",
     "@types/jest": "^28.1.6",
