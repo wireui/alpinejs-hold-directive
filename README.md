@@ -10,7 +10,7 @@
 </p>
 
 ### 🔥 Hold Directive
-The alpine-hold-directive directive is a directive that allows you to add a hold to an element and call a function when the hold is released.
+The alpine-hold-directive allows you to add a hold action to an element and call it when the button is holding.
 
 
 ### 📚 Get Started
@@ -26,9 +26,7 @@ or
 npm i --save wireui/hold-directive
 ```
 
-#### How to use it?
-You can import it in your js file before the **`Alpine.start()`** call.
-
+#### Configure
 ```diff
 // resources/js/alpine.js
 import Alpine from 'alpinejs'
@@ -44,6 +42,35 @@ window.Alpine = Alpine
 
 Alpine.start()
 ```
+
+#### How to use it?
+You can import it in your js file before the **`Alpine.start()`** call.
+
+```html
+<div x-data="{
+    count: 0,
+    plus() { this.count++ },
+    minus() { this.count-- }
+}">
+    <button x-hold.click="minus">Minus</button>
+    <input x-model="count">
+    <button x-hold.click="plus">Plus</button>
+</div>
+```
+
+#### Directive API
+|      Modifier       |                Description                | Default |
+|---------------------|-------------------------------------------|---------|
+| x-hold.500ms        | Set the wait time to repeat the action    |         |
+| x-hold.repeat       | Set the wait time to repeat the action    |  500ms  |
+| x-hold.repeat.500ms | Set the wait time to repeat the action    |         |
+| x-hold.delay        | Set the wait time to start holding        |  500ms  |
+| x-hold.delay.500ms  | Set the wait time to start holding        |         |
+| x-hold.click        | Fire the hold action with the click event |  false  |
+
+All modifiers can be used together.
+
+Just set the modifier duration after the modifer name, **`x-hold.delay.500ms`**.
 
 <h2>📣 Follow the author</h2>
 
@@ -65,7 +92,7 @@ All contributions are welcome!
 
 ## License
 
-MIT
+[MIT](https://opensource.org/licenses/MIT)
 
 [@ph7jack]: https://twitter.com/ph7jack
 [Pedro Oliveira]: https://github.com/PH7-Jack
