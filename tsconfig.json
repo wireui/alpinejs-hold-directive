@@ -25,7 +25,7 @@
         "rootDir": "./",
         "paths": {
             "*": ["node_modules/*"],
-            "@/*": ["ts/*"],
+            "@/*": ["src/*"],
             "@tests/*": ["tests/*"]
         },
         "esModuleInterop": true,
