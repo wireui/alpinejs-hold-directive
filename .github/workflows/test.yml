@@ -1,5 +1,5 @@
 name: Tests
- 
+
 on:
   push:
     branches:
@@ -10,15 +10,15 @@ on:
 
   workflow_dispatch:
 
-jobs: 
-  build: 
-    runs-on: ubuntu-latest 
+jobs:
+  build:
+    runs-on: ubuntu-latest
     name: Running Tests
-    steps: 
+    steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
-          node-version: "16.x" 
+          node-version: "16.x"
       - run: |
           yarn install
           yarn lint
