@@ -1,0 +1,24 @@
+name: Tests
+ 
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    types: [ready_for_review, synchronize, opened]
+
+  workflow_dispatch:
+
+jobs: 
+  build: 
+    runs-on: ubuntu-latest 
+    name: Running Tests
+    steps: 
+      - uses: actions/checkout@v3 
+      - name: Setup and Tests
+        run: |
+          yarn install
+          yarn lint
+          yarn test
+          yarn build
