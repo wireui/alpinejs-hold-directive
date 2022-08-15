@@ -1,10 +1,25 @@
 {
   "name": "@wireui/alpinejs-hold-directive",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alpine.js x-hold directive",
   "main": "dist/index.js",
-  "repository": "git@github.com:wireui/alpine-hold-directive.git",
+  "keywords": [
+    "wireui",
+    "hold directive",
+    "js hold function",
+    "ts hold function",
+    "alpinejs hold directive",
+    "alpine hold"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:wireui/alpine-hold-directive.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/wireui/alpinejs-hold-directive/issues"
+  },
+  "homepage": "https://github.com/wireui/alpinejs-hold-directive",
   "author": "PH7-Jack <pedrolivertwd@gmail.com>",
   "license": "MIT",
   "scripts": {
