@@ -1,19 +1,18 @@
 <p align="center">
-    <a href="https://github.com/wireui/alpine-hold-directive/blob/master/LICENSE">
-        <img src="https://img.shields.io/github/license/wireui/alpine-hold-directive" alt="GitHub license" data-canonical-src="https://img.shields.io/github/license/wireui/alpine-hold-directive" style="max-width:100%;" />
+    <a href="https://github.com/wireui/alpinejs-hold-directive/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/wireui/alpinejs-hold-directive" alt="GitHub license" data-canonical-src="https://img.shields.io/github/license/wireui/alpinejs-hold-directive" style="max-width:100%;" />
     </a>
     <a href="https://twitter.com/ph7jack">
-        <img alt="Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fwireui%2Falpine-hold-directive"></a>
+        <img alt="Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fwireui%2Falpinejs-hold-directive"></a>
     </a>
 </p>
 
-# Alpine Hold Directive
+# Alpine.js Hold Directive
 
-[![Tests](https://github.com/wireui/alpine-hold-directive/actions/workflows/test.yml/badge.svg)](https://github.com/wireui/alpine-hold-directive/actions/workflows/test.yml)
+[![Tests](https://github.com/wireui/alpinejs-hold-directive/actions/workflows/test.yml/badge.svg)](https://github.com/wireui/alpinejs-hold-directive/actions/workflows/test.yml)
 
 ### 🔥 Hold Directive
-The alpine-hold-directive allows you to add a hold action to an element and call it when the button is holding.
-
+The hold directive allows you to add a hold action to an element and call it when the button is holding.
 
 ### 📚 Get Started
 #### Prerequisites:
@@ -21,11 +20,11 @@ The alpine-hold-directive allows you to add a hold action to an element and call
 
 #### Install
 ```bash
-yarn add @wireui/alpine-hold-directive
+yarn add @wireui/alpinejs-hold-directive
 
 or
 
-npm i @wireui/alpine-hold-directive --save
+npm i @wireui/alpinejs-hold-directive --save
 ```
 
 #### Configure
@@ -33,12 +32,12 @@ npm i @wireui/alpine-hold-directive --save
 // resources/js/app.js
 import Alpine from 'alpinejs'
 
-+ import HoldDirective from '@wireui/alpine-hold-directive'
++ import HoldDirective from '@wireui/alpinejs-hold-directive'
 + HoldDirective.register(Alpine)
 
 // or
 
-+ import { directive } from '@wireui/alpine-hold-directive'
++ import { directive } from '@wireui/alpinejs-hold-directive'
 + Alpine.directive('hold', directive)
 
 window.Alpine = Alpine

@@ -1,5 +1,5 @@
 {
-  "name": "@wireui/alpine-hold-directive",
+  "name": "@wireui/alpinejs-hold-directive",
   "private": false,
   "version": "1.0.0",
   "description": "Alpine.js x-hold directive",
