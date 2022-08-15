@@ -1,5 +1,5 @@
 {
-  "name": "alpine-hold",
+  "name": "alpine-hold-directive",
   "version": "1.0.0",
   "description": "Alpine.js x-hold directive",
   "main": "index.js",
@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint tests src --ext .ts",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "alpinejs": "^3.10.3"
