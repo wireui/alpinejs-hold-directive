@@ -21,24 +21,24 @@ The alpine-hold-directive allows you to add a hold action to an element and call
 
 #### Install
 ```bash
-yarn add wireui/hold-directive
+yarn add @wireui/alpine-hold-directive
 
 or
 
-npm i --save wireui/hold-directive
+npm i @wireui/alpine-hold-directive --save
 ```
 
 #### Configure
 ```diff
-// resources/js/alpine.js
+// resources/js/app.js
 import Alpine from 'alpinejs'
 
-+ import HoldDirective from 'alpine-hold-directive/dist/src/index'
++ import HoldDirective from '@wireui/alpine-hold-directive'
 + HoldDirective.register(Alpine)
 
 // or
 
-+ import { directive } from 'alpine-hold-directive'
++ import { directive } from '@wireui/alpine-hold-directive'
 + Alpine.directive('hold', directive)
 
 window.Alpine = Alpine
@@ -47,7 +47,7 @@ Alpine.start()
 ```
 
 #### How to use it?
-You can import it in your js file before the **`Alpine.start()`** call.
+You can use the x-hold directive to call any alpine.js action.
 
 ```html
 <div x-data="{
@@ -75,13 +75,11 @@ All modifiers can be used together.
 
 Just set the modifier duration after the modifer name, **`x-hold.delay.500ms`**.
 
-<h2>📣 Follow the author</h2>
+<h2>📣 Follow the Author</h2>
 
 Stay informed, follow [@ph7jack] on Twitter.
 
 There will you see all the latest news about features, ideas, discussions and more...
-
-<br/>
 
 <h2> 💡 Philosophy</h2>
 
@@ -90,8 +88,6 @@ WireUI is and will always be FREE to anyone who would like to use it.
 This project is created [Pedro Oliveira], and it is maintained by the author with the help of the community.
 
 All contributions are welcome!
-
-<br/>
 
 ## License
 
