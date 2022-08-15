@@ -1,11 +1,12 @@
 import Alpine from 'alpinejs'
 import { directive } from '@/directive'
+import { register } from '@/index'
 
 describe('Testing index.ts', () => {
   it('should register the hold directive', async () => {
     Alpine.directive = jest.fn()
 
-    await import('@/index')
+    register(Alpine)
 
     expect(Alpine.directive).toHaveBeenCalledWith('hold', directive)
   })
