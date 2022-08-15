@@ -16,3 +16,5 @@ export interface DirectiveParameters {
   original: string
   type: string
 }
+
+export { Alpine }
