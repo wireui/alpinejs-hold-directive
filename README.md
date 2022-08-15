@@ -1,5 +1,3 @@
-# Alpine Hold Directive
-
 <p align="center">
     <a href="https://github.com/wireui/alpine-hold-directive/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/wireui/alpine-hold-directive" alt="GitHub license" data-canonical-src="https://img.shields.io/github/license/wireui/alpine-hold-directive" style="max-width:100%;" />
@@ -8,6 +6,10 @@
         <img alt="Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fwireui%2Falpine-hold-directive"></a>
     </a>
 </p>
+
+# Alpine Hold Directive
+
+[![Tests](https://github.com/wireui/alpine-hold-directive/actions/workflows/test.yml/badge.svg)](https://github.com/wireui/alpine-hold-directive/actions/workflows/test.yml)
 
 ### 🔥 Hold Directive
 The alpine-hold-directive allows you to add a hold action to an element and call it when the button is holding.
