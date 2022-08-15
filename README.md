@@ -31,11 +31,12 @@ npm i --save wireui/hold-directive
 // resources/js/alpine.js
 import Alpine from 'alpinejs'
 
-+ import 'wireui/hold-directive'
++ import HoldDirective from 'alpine-hold-directive/dist/src/index'
++ HoldDirective.register(Alpine)
 
 // or
 
-+ import { directive } from 'wireui/hold-directive'
++ import { directive } from 'alpine-hold-directive'
 + Alpine.directive('hold', directive)
 
 window.Alpine = Alpine
