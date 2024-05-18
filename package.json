@@ -6,11 +6,11 @@
   "main": "dist/index.js",
   "keywords": [
     "wireui",
+    "alpine hold",
     "hold directive",
     "js hold function",
     "ts hold function",
-    "alpinejs hold directive",
-    "alpine hold"
+    "alpinejs hold directive"
   ],
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "url" : "https://github.com/wireui/alpinejs-hold-directive/issues"
   },
   "homepage": "https://github.com/wireui/alpinejs-hold-directive",
-  "author": "PH7-Jack <pedrolivertwd@gmail.com>",
+  "author": "PH7-Jack <pedro@wireui.dev>",
   "license": "MIT",
   "scripts": {
     "lint": "eslint tests src --ext .ts",
