@@ -18,7 +18,7 @@ Documentation for Alpine.js Hold Directive can be found on the [WireUi website](
 
 ### 🔧 Contributing
 
-Thank you for considering contributing to WireUi Docs! The contribution guide can be found in the [WireUi documentation](https://wireui.dev/customize/contribution-guide).
+Thank you for considering contributing to Alpine.js Hold Directive! The contribution guide can be found in the [WireUi documentation](https://wireui.dev/customize/contribution-guide).
 
 ### 📣 Follow the WireUi
 
