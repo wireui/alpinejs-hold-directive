@@ -20,7 +20,7 @@
     "url" : "https://github.com/wireui/alpinejs-hold-directive/issues"
   },
   "homepage": "https://github.com/wireui/alpinejs-hold-directive",
-  "author": "PH7-Jack <pedro@wireui.dev>",
+  "author": "ph7jack <pedro@wireui.dev>",
   "license": "MIT",
   "scripts": {
     "lint": "eslint tests src --ext .ts",
